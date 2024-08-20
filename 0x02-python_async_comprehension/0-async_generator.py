@@ -3,12 +3,6 @@ import asyncio
 import random
 from typing import AsyncGenerator
 
-"""
-This module defines an asynchronous generator coroutine that
-yields random float numbers between 0 and 10, with a delay of 1 second
-between each yield.
-"""
-
 
 async def async_generator() -> AsyncGenerator[float, None]:
     """
