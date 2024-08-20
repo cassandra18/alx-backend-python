@@ -1,3 +1,4 @@
+"""0-async_generator.py"""
 import asyncio
 import random
 from typing import AsyncGenerator
